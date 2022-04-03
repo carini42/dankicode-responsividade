@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.parent {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: #fb8500;
+}
+
+.sidebar-pos {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img-sidebar {
+  text-align: center;
+}
+
+.img-sidebar img {
+  width: 80%;
+  border-radius: 50%;
+  border: 10px solid #fd9e02;
+}
+
+.menu {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  opacity: 0.5;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.menu a.selected {
+  opacity: 1;
+}
+
+.content {
+  position: absolute;
+  left: 20%;
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 3%;
+}
+
+section.descricao {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section.descricao h2 {
+  color: #023047;
+  font-size: 46px;
+}
+
+section.descricao h2 > span {
+  color: #fd9e02;
+}
+
+section.descricao h3 {
+  color: #023047;
+  font-size: 26px;
+  margin: 10px 0;
+}
+section.descricao p {
+  color: #126782;
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+
+.icons-social {
+  margin-top: 20px;
+}
+
+.icons-social a {
+  text-decoration: none;
+  color:  #023047;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
